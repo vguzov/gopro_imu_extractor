@@ -1,0 +1,20 @@
+{
+ "name": "gopro-imu-extractor",
+ "version": "1.0.0",
+ "description": "",
+ "main": "bin/index.js",
+ "scripts": {
+   "test": "echo \"Error: no test specified\" && exit 1"
+ },
+ "keywords": [],
+ "author": "Vladimir Guzov",
+ "license": "MIT",
+ "bin": {
+   "goimuex": "./bin/index.js"
+ },
+  "dependencies": {
+    "gopro-telemetry": "^1.1.41",
+    "gpmf-extract": "^0.2.5",
+    "yargs": "^17.6.2"
+  }
+}
